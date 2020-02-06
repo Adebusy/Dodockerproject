@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dodocker:
+    image: ${DOCKER_REGISTRY}dodocker
+    build:
+      context: .\DoDocker
+      dockerfile: Dockerfile
